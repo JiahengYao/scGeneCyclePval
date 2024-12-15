@@ -1,0 +1,67 @@
+2024-12-16 01:28:36.277232: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-12-16 01:28:37.198850: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-12-16 01:28:37.233278: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/yaojh/hdf5/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/software/torque-6.1.2/lib:/opt/software/mpich2-intel/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mpirt/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mkl/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/debugger/libipt/intel64/lib
+2024-12-16 01:28:37.233544: I tensorflow/compiler/xla/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-16 01:28:39.728214: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/yaojh/hdf5/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/software/torque-6.1.2/lib:/opt/software/mpich2-intel/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mpirt/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mkl/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/debugger/libipt/intel64/lib
+2024-12-16 01:28:39.728364: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/yaojh/hdf5/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/software/torque-6.1.2/lib:/opt/software/mpich2-intel/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mpirt/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mkl/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/debugger/libipt/intel64/lib
+2024-12-16 01:28:39.728377: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2024-12-16 01:28:56.807318: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/yaojh/hdf5/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/software/torque-6.1.2/lib:/opt/software/mpich2-intel/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mpirt/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mkl/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/debugger/libipt/intel64/lib
+2024-12-16 01:28:56.807437: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/yaojh/hdf5/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/software/torque-6.1.2/lib:/opt/software/mpich2-intel/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mpirt/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mkl/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/debugger/libipt/intel64/lib
+2024-12-16 01:28:56.807510: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/yaojh/hdf5/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/software/torque-6.1.2/lib:/opt/software/mpich2-intel/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mpirt/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mkl/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/debugger/libipt/intel64/lib
+2024-12-16 01:28:56.807572: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/yaojh/hdf5/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/software/torque-6.1.2/lib:/opt/software/mpich2-intel/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mpirt/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mkl/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/debugger/libipt/intel64/lib
+2024-12-16 01:28:56.807627: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/yaojh/hdf5/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/software/torque-6.1.2/lib:/opt/software/mpich2-intel/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mpirt/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mkl/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/debugger/libipt/intel64/lib
+2024-12-16 01:28:56.807682: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcusolver.so.11'; dlerror: libcusolver.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/yaojh/hdf5/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/software/torque-6.1.2/lib:/opt/software/mpich2-intel/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mpirt/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mkl/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/debugger/libipt/intel64/lib
+2024-12-16 01:28:56.807734: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/yaojh/hdf5/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/software/torque-6.1.2/lib:/opt/software/mpich2-intel/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mpirt/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mkl/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/debugger/libipt/intel64/lib
+2024-12-16 01:28:56.807790: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/yaojh/hdf5/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/software/torque-6.1.2/lib:/opt/software/mpich2-intel/lib:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mpirt/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/compiler/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/mkl/lib/intel64:/opt/intel2015/composer_xe_2015.6.233/debugger/libipt/intel64/lib
+2024-12-16 01:28:56.807829: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-12-16 01:28:56.809017: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Auto tuning number of linear components...
+Performing PCA...
+Training Autoencoder with...
+    0 linear dimensions...
+epoch: 20/100, loss:  167.7779, time elapsed:  4.26s, time left:  17.06s
+epoch: 40/100, loss:  167.7715, time elapsed:  6.36s, time left:  9.54s
+epoch: 60/100, loss:  167.7658, time elapsed:  8.46s, time left:  5.64s
+epoch: 80/100, loss:  167.7607, time elapsed:  10.55s, time left:  2.64s
+epoch: 100/100, loss:  167.7559, time elapsed:  12.28s, time left:  0.00s
+[167.755859375]
+[164.25512811775553, 160.80182231726218, 158.23349743591658, 155.69967614545988, 153.51748068376716]
+    1 linear dimensions...
+epoch: 20/100, loss:  167.4843, time elapsed:  5.34s, time left:  21.36s
+epoch: 40/100, loss:  166.9978, time elapsed:  7.32s, time left:  10.98s
+epoch: 60/100, loss:  166.6651, time elapsed:  9.24s, time left:  6.16s
+epoch: 80/100, loss:  166.4313, time elapsed:  10.82s, time left:  2.70s
+epoch: 100/100, loss:  166.2465, time elapsed:  12.20s, time left:  0.00s
+[167.755859375, 166.24647521972656]
+[164.25512811775553, 160.80182231726218, 158.23349743591658, 155.69967614545988, 153.51748068376716]
+Found! Use 0 linear components...
+Early stop disabled, continue to check all cases...
+    2 linear dimensions...
+epoch: 20/100, loss:  167.1923, time elapsed:  4.17s, time left:  16.69s
+epoch: 40/100, loss:  166.2383, time elapsed:  5.82s, time left:  8.72s
+epoch: 60/100, loss:  165.5872, time elapsed:  7.50s, time left:  5.00s
+epoch: 80/100, loss:  165.1240, time elapsed:  9.13s, time left:  2.28s
+epoch: 100/100, loss:  164.7598, time elapsed:  10.97s, time left:  0.00s
+[167.755859375, 166.24647521972656, 164.75979614257812]
+[164.25512811775553, 160.80182231726218, 158.23349743591658, 155.69967614545988, 153.51748068376716]
+    3 linear dimensions...
+epoch: 20/100, loss:  166.9108, time elapsed:  5.07s, time left:  20.26s
+epoch: 40/100, loss:  165.4664, time elapsed:  7.07s, time left:  10.60s
+epoch: 60/100, loss:  164.5009, time elapsed:  8.89s, time left:  5.92s
+epoch: 80/100, loss:  163.8292, time elapsed:  10.60s, time left:  2.65s
+epoch: 100/100, loss:  163.3112, time elapsed:  12.69s, time left:  0.00s
+[167.755859375, 166.24647521972656, 164.75979614257812, 163.3112030029297]
+[164.25512811775553, 160.80182231726218, 158.23349743591658, 155.69967614545988, 153.51748068376716]
+epoch: 30/300, loss:  167.7793, time elapsed:  4.31s, time left:  38.75s
+epoch: 60/300, loss:  167.7742, time elapsed:  6.49s, time left:  25.98s
+epoch: 90/300, loss:  167.7696, time elapsed:  8.63s, time left:  20.13s
+epoch: 120/300, loss:  167.7653, time elapsed:  11.12s, time left:  16.69s
+epoch: 150/300, loss:  167.7614, time elapsed:  13.61s, time left:  13.61s
+epoch: 180/300, loss:  167.7575, time elapsed:  16.07s, time left:  10.72s
+epoch: 210/300, loss:  167.7535, time elapsed:  18.17s, time left:  7.79s
+epoch: 240/300, loss:  167.7500, time elapsed:  20.20s, time left:  5.05s
+epoch: 270/300, loss:  167.7461, time elapsed:  22.76s, time left:  2.53s
+epoch: 300/300, loss:  167.7425, time elapsed:  25.27s, time left:  0.00s
