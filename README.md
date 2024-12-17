@@ -103,21 +103,21 @@ For example:
 ```
 Each pair will generate a corresponding subfolder in the --output_dir (e.g., ../data/report1), containing tables of gene cycle effect weight differences, p-values, and FDR values.
 
-Viewing Results
+**Viewing Results**
 The analysis results will be saved in the specified output directories:
 
-Python Script Outputs (../data/cache):
+*Python Script Outputs (../data/cache):*
 pseudotime.h5: Pseudotime estimation results.
 weights.h5: Gene weights.
 
-R Script Outputs (../data/report1):
+*R Script Outputs (../data/report1):*
 Subfolders corresponding to each pairwise comparison listed in info.txt.
 Each subfolder contains tables with gene cycle effect weight differences, p-values, and FDR values.
 
-**Contributing**
+## Contributing
 We welcome contributions! If you have suggestions, bug reports, or want to contribute code, please open an issue or submit a pull request on the GitHub repository.
 
-**License**
+## License
 This project is licensed under the Apache License 2.0. Additionally, it incorporates Cyclum, which is licensed under the MIT License.
 
 ## Acknowledgments
