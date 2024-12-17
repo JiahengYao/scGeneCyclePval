@@ -59,8 +59,8 @@ Clone the scGeneCyclePval repository to your local machine:
 git clone https://github.com/JiahengYao/scGeneCyclePval.git
 cd scGeneCyclePval
 ```
-**Usage**
-Running the Analysis Pipeline
+## Usage
+### Running the Analysis Pipeline
 To perform the analysis, execute the provided shell script. This script runs the Python analysis script followed by the R comparative analysis script.
 ```
 bash scripts/ANA_pipline.sh
@@ -92,7 +92,7 @@ python run_analysis.py \
 # Run the R comparative analysis script
 Rscript compare.R --comparison_list ../data/info.txt --output_dir ../data/report1
 ```
-Preparing Info Data
+## Preparing Info Data
 Ensure that your info data is organized as follows:
 After running run_analysis.py, prepare an info.txt. This file should contain pairwise comparisons, with each line specifying two groups to compare. The format is as follows:
 path_to_group1 path_to_group2
@@ -106,11 +106,12 @@ Each pair will generate a corresponding subfolder in the --output_dir (e.g., ../
 **Viewing Results**
 The analysis results will be saved in the specified output directories:
 
-*Python Script Outputs (../data/cache):*
+### Outputs
+**Python Script Outputs (../data/cache):**
 pseudotime.h5: Pseudotime estimation results.
 weights.h5: Gene weights.
 
-*R Script Outputs (../data/report1):*
+**R Script Outputs (../data/report1):**
 Subfolders corresponding to each pairwise comparison listed in info.txt.
 Each subfolder contains tables with gene cycle effect weight differences, p-values, and FDR values.
 
