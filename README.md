@@ -22,14 +22,15 @@ First, create a new Conda environment and activate it:
 ```bash
 conda create -n scGeneCyclePval python=3.7 pip
 conda activate scGeneCyclePval
+```
 
 ### 2. Install Cyclum
 Clone the Cyclum repository and install it using pip:
-
+```
 git clone https://github.com/KChen-lab/Cyclum.git
 cd Cyclum
 pip install .
-
+```
 During the installation, Cyclum will attempt to install the following dependencies:
 
 python: 3.7.4
@@ -44,27 +45,29 @@ matplotlib: 3.1.1
 
 ### 3. Install Additional Python Dependencies
 Install the remaining Python libraries required for scGeneCyclePval:
+```
 conda install pandas numpy scipy h5py matplotlib scikit-learn
-
+```
 ### 4. Install R Dependencies
 The compare.R script requires the argparse package in R. Install it by running the following command in your R environment:
+```
 install.packages("argparse")
-
+```
 5. Clone scGeneCyclePval Repository
 Clone the scGeneCyclePval repository to your local machine:
-
+```
 git clone https://github.com/JiahengYao/scGeneCyclePval.git
 cd scGeneCyclePval
-
-Usage
+```
+**Usage**
 Running the Analysis Pipeline
 To perform the analysis, execute the provided shell script. This script runs the Python analysis script followed by the R comparative analysis script.
-
+```
 bash scripts/ANA_pipline.sh
-
+```
 Example Analysis Script
 The ANA_pipline.sh script is an example run that does not require any additional parameters. Its content is as follows:
-
+```
 #!/bin/bash
 
 # Define input file paths and output directory
@@ -88,15 +91,16 @@ python run_analysis.py \
 
 # Run the R comparative analysis script
 Rscript compare.R --comparison_list ../data/info.txt --output_dir ../data/report1
-
+```
 Preparing Info Data
 Ensure that your info data is organized as follows:
 After running run_analysis.py, prepare an info.txt. This file should contain pairwise comparisons, with each line specifying two groups to compare. The format is as follows:
 path_to_group1 path_to_group2
 
 For example:
+```
 ../data/cache/sample_GSM6886536_Sigmoid_03N_CellType_IgA__Plasma_cells ../data/cache/sample_GSM6886537_Sigmoid_03T_CellType_IgA__Plasma_cells
-
+```
 Each pair will generate a corresponding subfolder in the --output_dir (e.g., ../data/report1), containing tables of gene cycle effect weight differences, p-values, and FDR values.
 
 Viewing Results
@@ -110,10 +114,10 @@ R Script Outputs (../data/report1):
 Subfolders corresponding to each pairwise comparison listed in info.txt.
 Each subfolder contains tables with gene cycle effect weight differences, p-values, and FDR values.
 
-Contributing
+**Contributing**
 We welcome contributions! If you have suggestions, bug reports, or want to contribute code, please open an issue or submit a pull request on the GitHub repository.
 
-License
+**License**
 This project is licensed under the Apache License 2.0. Additionally, it incorporates Cyclum, which is licensed under the MIT License.
 
 ## Acknowledgments
